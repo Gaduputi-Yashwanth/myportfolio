@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main container */
+  .main {
+    width: 100%;
+    height: 100vh;
+    background-image: url("img70.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  #d1{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+  }
+  
+  button{
+    border: none;
+    margin-right: 10px;
+    font-size:22px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.311);
+  }
+  button:hover{
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(253, 252, 252, 0.19);
+  }
+  button:active{
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(253, 252, 252, 0.19);
+  }
+  a{
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 650;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+
+  }
+  .head{
+    width:fit-content ;
+  }
+  .navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar .logo {
+    /* Removed unnecessary mix-blend-mode and filter properties */
+    display: inline;
+    width: 250px;
+    cursor: pointer;
+    margin: -3%;
+    margin-left: -2%;
+  }
+  .ski {
+    width: 100%;
+    display: flex; /* Arrange skill and certification sections side-by-side */
+    justify-content: space-between; /* Distribute sections evenly */
+    position: relative;
+  }
+  
+  .skill {
+    margin: 0 auto; /* Center the skill section horizontally */
+    width: 40%; /* Adjust width as needed */
+    padding: 20px;
+    background-color: rgb(4, 4, 4,0.3); /* Transparent background with slight opacity */
+    position: absolute;
+    top: 220px;
+    left: 95px;
+    box-shadow: 0 0px 6px 6px rgba(28, 152, 190, 0.8), 0 6px 20px 0 rgba(1, 60, 254, 0.8);
+    border-radius: 5px; /* Add rounded corners */
+  }
+  .skill h1 {
+    color: rgb(251, 250, 250);
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; /* Center align heading text */
+  }
+  
+  .skill h2 {
+    color: rgb(249, 249, 249);
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', sans-serif;
+  }
+  
+  .skill p {
+    color: rgb(254, 252, 252);
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Certifications section */
+  .certi {
+    margin: 0 auto; /* Center the certification section horizontally */
+    width: 40%; /* Adjust width as needed */
+    height: 256px;
+    padding: 20px;
+    background-color: rgb(6, 6, 6,0.3); /* Transparent background with slight opacity */
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    box-shadow: 0px 0px 6px 6px rgba(28, 152, 190, 0.8), 0 6px 20px 0 rgba(1, 1, 254, 0.8);
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  .certi h1 {
+    color: rgb(252, 250, 250);
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; /* Center align heading text */
+  }
+  
+  .certi h2,
+  .certi p {
+    color: rgb(251, 249, 249);
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
