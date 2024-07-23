@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>contact</title>
     <link rel="stylesheet" href="contact.css">
+    <script src="contact.js">
+    </script>
 </head>
 <body>
     <div id="b1">
@@ -14,8 +16,8 @@
             </a>
             </button>
             <button class="head">
-            <a href="about1.html">
-                ABOUT
+            <a href="about.html">
+                ACADAMIC QUALIFICATION
             </a>
             </button>
             <button class="head">
@@ -29,42 +31,18 @@
             </a>
             </button>
     </div>
-    <div id="b2">
-        <div id="b2">
-            <form class="contact-form">
-                <div class="form-section">
-                    <div class="full-name">
-                        <input type="text" required placeholder="Full Name">
-                    </div>
-                    <div class="email">
-                        <input type="email" required placeholder="Email Address">
-                    </div>
-                    <div class="message">
-                        <textarea name="message" placeholder="Type your message..." required></textarea>
-                    </div>
-                    <div class="submit-button">
-                        <button class="but" style="background-color: blue; color: white; background-image: none; padding: 10px;">
-                        <input type="submit" value="Submit">
-                        </button>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <div class="n">
-        <div class="n1">
-            <a href="">
-             <img src="insta.jpg" height="30px">
-            </a>
-            <p style="font-size: 10px; display: inline;">
-                follow me on Instagram
-            </p>
-            <a href="">
-             <img src="mail.png" height="30px">
-            </a>
-            <p style="font-size: 10px; display: inline;">
-                mail me for any quaries
-            </p>
-        </div>
-        </div>
+    <div class="parent">
+        <form onsubmit="handleSubmit(event)">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+          
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea><br><br>
+          
+          <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 </html>

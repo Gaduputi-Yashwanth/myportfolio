@@ -1,131 +1,50 @@
 *{
-    font-size: 25px;
-    background-image: url(img70.avif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
-  }
-  h2{
-    font-size: 36px;
-    position: relative;
-    top: 10;
-  }
-  button{
-    border: none;
-    background-color:aliceblue;
-    margin-right: 10px;
-    font-size:22px;
-  }
-  button:hover{
-    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(253, 252, 252, 0.19);
-  }
-  button:active{
-    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(253, 252, 252, 0.19);
-  }
-  a{
-    font-size: 22px;
-    text-decoration: none;
-    font-weight: 650;
-  }
-  .head{
-    width:fit-content ;
-  }
-  #b1{
-    position: absolute;
-    top: 100px;
-    right: 100px;
-    background-color: aliceblue;
-  
-  }
-  .form{
-    position: absolute;
-    top: 100vh;
-    margin-left: 10%;
-    color: white;
+  font-size: 25px;
+  background-image: url(img70.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
 }
-.content-form{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0;
-    margin-top: 53vh;
-    margin-left: 10vh;
-    color: white;
+button:hover{
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(253, 252, 252, 0.19);
 }
-.content section{
-    margin-top: 0vh;
-    margin-left: 0vh;
-    color: white;
+button:active{
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(253, 252, 252, 0.19);
 }
-#b2{
-    background-color: white;
+a{
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: 650;
 }
-.contact-form {
-    background-color: white;
-    width: 500px; /* Adjust as needed */
-    margin: 0 auto; /* Center horizontally */
-    padding: 20px;
-    border-radius: 5px; /* Add some rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+.head{
+  width:fit-content ;
+  border: none;
+  margin-right: 10px;
+  font-size:22px;
 }
-
-.form-section {
-    display: flex; /* Arrange fields side-by-side */
-    flex-wrap: wrap; /* Wrap to next line if needed */
-    gap: 20px; /* Spacing between fields */
-}
-
-.full-name, .email, .message {
-    width: 600px; /* Full width across the available space */
-}
-
-.full-name input, .email input, .message textarea {
-    border: 1px solid #ccc; /* Simple border */
-    padding: 10px; /* Space for comfortable input */
-    font-size: 16px;
-    width: 100%;
-    background-color: #f5f5f5; /* Light background for fields */
-    border-radius: 3px; /* Rounded corners for inputs/textarea */
-}
-
-.message textarea {
-    height: 150px; /* Adjust textarea height as needed */
-}
-
-.submit-button input {
-    background-color: #3498db; /* Blue button color */
-    color: white;
-    padding: 10px 20px; /* Larger button area */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded button corners */
-    cursor: pointer; /* Indicate clickable */
-    transition: background-color 0.2s ease; /* Smooth hover effect */
-}
-.contact-form span {
-    display: block; /* Ensure labels are shown on separate lines */
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 5px; /* Space between label and input */
-}
-
-/* Optional improvements: */
-
-/* Adjust font family, colors, and sizes to match your preferences */
-/* Add CSS media queries for responsiveness on different screen sizes */
-#b2{
-    position: absolute;
-    top: 100px;
-    display: inline;
-}
-.n{
-    display: inline;
+#b1{
+  position: absolute;
+  top: 100px;
+  right: 100px;
 
 }
-.n1{
-    display: inline;
-    position: absolute;
-    top: 150px;
-    left: 900px;
-    width: fit-content;
+.parent{
+  position:relative;
+  top: 200px;
+  left: 350px;
+  color: white;
+}
+input[type="submit"] {
+ 
+  background: #4CAF50;
+  color: white; 
+  padding: 12px 20px; 
+  border: none; 
+  border-radius: 4px;
+  cursor: pointer; 
+}
+input[type="submit"]:hover {
+  background: #4f8b52;
 }

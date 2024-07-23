@@ -7,17 +7,15 @@
     background-size: cover;
     color: white;
 }
-#b6.b{
+#b{
     text-align: center; 
-    border: 1px blue; 
-    background-color: white;
-    background-image: none;
+    border: 3px blue; 
+    background-color:white; 
+    background-image: none; 
+    color: blue; 
+    padding: 10px;
 }
-h2{
-    font-size: 36px;
-    position: relative;
-    top: 10;
-}
+
 button:hover{
     box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(253, 252, 252, 0.19);
 }
@@ -45,7 +43,7 @@ a{
 }
 #b2{
     position: relative;
-    top: 225px;
+    top: 150px;
     left: 13%;
     max-width: fit-content;
     display: inline-block;
@@ -62,6 +60,18 @@ a{
     text-align: left;
 }
 #p2{
-    font-size: 45px;
-    line-height: 0%;
+   width: 43%;
+   text-align: left;
 }
+footer{
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#eng{
+    display: block;
+}
+
